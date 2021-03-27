@@ -1,0 +1,48 @@
+<script> 
+   var a = b = c = d = 0;
+        var primera = 0;
+        var segunda = 0;
+          
+        function Dado(){
+            let num=Math.random()*6;
+            return Math.floor(1+num);
+        }
+  
+        for(i=1;i<=100;i++){
+            tirada1 = Dado();
+            switch(tirada1){
+                
+                case 1:
+                    a++;
+                    break;
+                case 2:
+                    b++;
+                    break;
+                case 3:
+                   
+            }
+        }
+   for(i=1;i<=100;i++){
+            tirada2 = Dado();
+            switch(tirada2){
+                
+                case 1:
+                    c++;
+                    break;
+                case 2:
+                    d++;
+                    break;
+            }
+        }
+        
+        var primera = a+b;
+        var segunda = c+d;
+        
+        document.write("Cuantas tiradas se realizaron " + tirada1 + tirada2+ "<br>");
+        
+        document.write("Suma de la primera tirada: " + primera + "<br>");
+    
+        document.write("Suma de la segunda tirada: " + segunda+ "<br>");
+       
+
+    </script>
