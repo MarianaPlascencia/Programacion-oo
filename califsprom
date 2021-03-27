@@ -1,0 +1,29 @@
+<script>
+  
+ let calificaciones;
+ let cantidad=0;
+ let suma=0;
+ let promedio;
+   do {
+	calificaciones=prompt("Indroduce tus calificaciones una por una y al finalizar un 0");
+  calificaciones= calificaciones*1;
+  
+  suma=suma+calificaciones;
+  
+ cantidad++;
+} while (! (calificaciones==0) );
+  
+cantidad= cantidad -1;
+promedio=suma/cantidad;
+  
+  
+  
+  function aprobadas(){
+    let operacion= calificaciones > 8
+    return aprobadas;
+  }
+
+  
+  document.write("Tu promedio es "+ promedio);
+  document.write("Las calificaciones mayores al promedio son:" + aprobadas);
+</script>
